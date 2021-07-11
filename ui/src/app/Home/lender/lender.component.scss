@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    .heig{
+        width: 100%;
+        height: 900px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .heig {
+        height: 500px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .heig {
+        height: 500px;
+        width: 100%;
+    }
+}
+// .heig{
+//     width: 50%;
+//     margin-left: 25%;
+//     height: 900px;
+// }
+
+#main-img2 {
+  
+    height: 600px;
+    width:100%
+  } 
+  //mobile view
+  @media screen and (max-width: 767px) {   
+      #main-img2{
+        background-image: url("../../../assets/nocar.JPG");
+      } 
+  }
+  
+  @media screen and (min-width: 768px) {      
+      #main-img2{      
+        background-image: url("../../../assets/nocar.JPG");
+      } 
+  } 
+  
+
+
